@@ -14,7 +14,7 @@ EOT
     container_app_environment_id = string
     name                         = string
     subject_name                 = string
-    domain_control_validation    = optional(string) # Default: "HTTP"
+    domain_control_validation    = optional(string)
     tags                         = optional(map(string))
   }))
 }
